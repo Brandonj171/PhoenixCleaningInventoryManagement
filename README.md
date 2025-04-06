@@ -98,5 +98,5 @@ This project is licensed under the MIT License. See the LICENSE file for more de
 
 ### Contact
 For any inquiries, feel free to reach out:
-- **Ridho Hery Winarto**
-- **Email** : ridhoherywinarto@gmail.com
+- **Brandon Jordan**
+- **Email** : Brandon.jordan14@outlook.com

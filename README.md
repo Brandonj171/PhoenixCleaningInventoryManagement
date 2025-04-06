@@ -53,7 +53,7 @@ Before you begin, ensure you have the following:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/promumyhero/InventoTrack.git
+   git clone https://github.com/promumyhero/PhoenixInventory.git
 2. Navigate to the project directory and install the necessary dependencies:
    ```bash
    cd inventory-management-system

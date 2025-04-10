@@ -53,7 +53,7 @@ Before you begin, ensure you have the following:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/promumyhero/InventoTrack.git
+   git clone https://github.com/Brandonj171/PhoenixCleaningInventoryManagement.git
 2. Navigate to the project directory and install the necessary dependencies:
    ```bash
    cd inventory-management-system
@@ -98,5 +98,5 @@ This project is licensed under the MIT License. See the LICENSE file for more de
 
 ### Contact
 For any inquiries, feel free to reach out:
-- **Ridho Hery Winarto**
-- **Email** : ridhoherywinarto@gmail.com
+- **Brandon Jordan**
+- **Email** : Brandon.jordan14@outlook.com

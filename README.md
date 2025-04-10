@@ -1,6 +1,6 @@
 # Inventory Management System
 
-## Completed Inventory Management System: https://master.d3jzasji08rgde.amplifyapp.com/
+## Complete Inventory Management System: https://master.d3jzasji08rgde.amplifyapp.com/
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
 ![AWS EC2](https://img.shields.io/badge/AWS-EC2-orange)

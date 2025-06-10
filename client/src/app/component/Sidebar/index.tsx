@@ -98,7 +98,7 @@ const Sidebar = () => {
           className="md:hidden px-3 py-3 bg-gray-100 rounded-full hover:bg-blue-100"
           onClick={toggleSidebar}
         >
-          <Menu className="w-4 h-4" />
+         <span className="text-xl font-bold">✕</span>
         </button>
       </div>
 

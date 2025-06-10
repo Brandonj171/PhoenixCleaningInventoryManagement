@@ -5,7 +5,7 @@ import { setIsDarkMode, setIsSidebarCollapsed } from "@/state";
 import { Bell, Menu, Moon, Settings, Sun } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
-import React, { useState } from "react";
+import React from "react";
 
 const Navbar = () => {
   const dispatch = useAppDispatch();
@@ -14,11 +14,8 @@ const Navbar = () => {
   );
   const isDarkMode = useAppSelector((state) => state.global.isDarkMode);
 
-  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-
   const toggleSidebar = () => {
     dispatch(setIsSidebarCollapsed(!isSidebarCollapsed));
-    setIsMobileMenuOpen((prev) => !prev);
   };
 
   const toggleDarkMode = () => {
@@ -33,10 +30,10 @@ const Navbar = () => {
           className="px-3 py-3 bg-gray-100 rounded-full hover:bg-blue-100"
           onClick={toggleSidebar}
         >
-          {isMobileMenuOpen ? (
-            <span className="text-xl font-bold">✕</span>
-          ) : (
+          {isSidebarCollapsed ? (
             <Menu className="w-4 h-4" />
+          ) : (
+            <span className="text-xl font-bold">✕</span>
           )}
         </button>
 
